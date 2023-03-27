@@ -10,7 +10,6 @@ def __main__(dice_):
     game_status = 'Continue'
     player_point = 0
     _, _, sum_dice = dice_.roll_double_dice()
-    print('Your rolled sum: ', sum_dice)
 
     for key, value in outcome.items():
         if key == sum_dice:
